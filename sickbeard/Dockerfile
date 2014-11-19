@@ -1,5 +1,5 @@
 FROM norrebronx/python
-MAINTAINER norrebronx <leoncioacevedo@gmail.com>
+MAINTAINER talenddev <leo@talenddev.com>
 ENV DEBIAN_FRONTEND noninteractive
 
 RUN apt-get install -qy --force-yes git-core python-cheetah python-openssl
