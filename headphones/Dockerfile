@@ -1,5 +1,5 @@
 FROM norrebronx/python
-MAINTAINER norrebronx <leoncioacevedo@gmail.com>
+MAINTAINER talenddev <leo@talenddev.com>
 ENV DEBIAN_FRONTEND noninteractive
 
 RUN git clone https://github.com/rembo10/headphones.git /opt/headphones
