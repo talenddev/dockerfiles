@@ -1,5 +1,5 @@
 FROM norrebronx/baseimage
-MAINTAINER norrebronx <leoncioacevedo@gmail.com>
+MAINTAINER talenddev <leo@talenddev.com>
 ENV DEBIAN_FRONTEND noninteractive
 
 # Install Dependencies
