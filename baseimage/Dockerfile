@@ -1,5 +1,5 @@
 FROM phusion/baseimage:0.9.11
-MAINTAINER norrebronx <leoncioacevedo@gmail.com>
+MAINTAINER talenddev <leo@talenddev.com>
 ENV DEBIAN_FRONTEND noninteractive
 
 # Ensure UTF-8
