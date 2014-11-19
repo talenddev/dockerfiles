@@ -1,4 +1,4 @@
-FROM talendev/python
+FROM talenddev/python
 MAINTAINER talenddev <leo@talenddev.com>
 ENV DEBIAN_FRONTEND noninteractive
 
