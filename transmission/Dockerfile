@@ -1,4 +1,4 @@
-FROM norrebronx/baseimage
+FROM talenddev/baseimage
 MAINTAINER talenddev <leo@talenddev.com>
 ENV DEBIAN_FRONTEND noninteractive
 
@@ -14,4 +14,3 @@ RUN chmod +x /etc/service/transmission/run
 
 EXPOSE 9091
 EXPOSE 54321
-
