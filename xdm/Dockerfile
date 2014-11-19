@@ -1,5 +1,5 @@
 FROM norrebronx/python
-MAINTAINER norrebronx <leoncioacevedo@gmail.com>
+MAINTAINER talenddev <leo@talenddev.com>
 ENV DEBIAN_FRONTEND noninteractive
 
 RUN git clone https://github.com/lad1337/XDM.git /opt/xdm
