@@ -4,7 +4,7 @@ ENV DEBIAN_FRONTEND noninteractive
 
 RUN git clone https://github.com/RuudBurger/CouchPotatoServer.git /opt/CouchPotatoServer
 
-# Add transmission to runit
+# Add couchpotato to runit
 RUN mkdir /etc/service/CouchPotato
 ADD start.sh /etc/service/CouchPotato/run
 RUN chmod +x /etc/service/CouchPotato/run
