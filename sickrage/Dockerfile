@@ -2,7 +2,7 @@ FROM talenddev/python
 MAINTAINER talenddev <leo@talenddev.com>
 ENV DEBIAN_FRONTEND noninteractive
 
-RUN apt-get install -qy --force-yes git-core python-cheetah python-openssl
+RUN apt-get install -qy --force-yes python-cheetah python-openssl
 
 RUN git clone https://github.com/SiCKRAGETV/SickRage.git /opt/sickrage
 
